@@ -1,2 +1,2 @@
 # VAGINUX
-A work in progress BrainFuck Operating System that uses the Linux Kernel
+VAGINUX is an Operating System that uses the BrainFuck variant called VaginaFuck with extensive set of syntax and Linux Kernel in x86
