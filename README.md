@@ -14,6 +14,8 @@ If using QEMU, use `qemu-system-i386` from terminal. If other virtualization sof
 
 To run VAGINUX, just do `qemu-system-i386 -drive format=raw,file=alpha.img`. For multi-boot feature, just add `-drive blah blah blah`. `.iso` is not supported here due to SBX86 being implemented only with raw image support.
 
+For bootloader compilation, a certain [GCC](https://github.com/lordmilko/i686-elf-tools) architecture of i686 is required to produce ELF binary meant for bare-metal. 
+
 # VaginaFuck Features
 1. Unlike linear array model for BrainFuck, VaginaFuck supports dynamic 64-bit of memory cells.
 2. Supports Data Types; Floats, Integers, Strings and Bools.
